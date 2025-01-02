@@ -47,7 +47,7 @@ This project fetches real-time IBM stock prices (OHLCV - Open, High, Low, Close,
 
 ---
 
-## 🚀 **Project Structure**  
+## ⚙️ **Project Structure**  
 RT-Dashboard/  
 ├── App/  
 │   └── app.py  
