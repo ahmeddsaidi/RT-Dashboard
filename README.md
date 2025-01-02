@@ -49,14 +49,19 @@ This project fetches real-time IBM stock prices (OHLCV - Open, High, Low, Close,
 
 ## 🚀 **Project Structure**  
 RT-Dashboard/  
-├── Kafka/                      # Kafka producer and consumer configurations
-    └── producer.py
-    └── consumer.py
-├── Spark/                      # Spark processing scripts
-    └── spark_straming.py 
-├── App/                        # Plotly/Dash dashboard code
-    └── app.py 
-├── Docker/                     # Docker setup for the entire system  
-    └── docker-compose.yml
-    └── README.md
-└── README.md                   # Project documentation  
+├── App/  
+│   └── app.py  
+├── Docker/  
+│   ├── docker-compose.yml  
+│   └── README.md  
+├── Images/  
+│   ├── architecture.png  
+│   └── img1.png  
+│   └── img2.png  
+│   └── img3.png  
+├── Kafka/  
+│   ├── producer.py  
+│   └── consumer.py  
+├── Spark/  
+│   └── spark_streaming.py  
+└── README.md
